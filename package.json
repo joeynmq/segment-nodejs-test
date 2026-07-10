@@ -1,0 +1,12 @@
+{
+  "name": "segment-node-test",
+  "version": "1.0.0",
+  "description": "Quick environment for testing Segment node.js library",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "analytics-node": "^6.2.0"
+  }
+}
