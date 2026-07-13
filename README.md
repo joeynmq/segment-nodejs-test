@@ -11,7 +11,9 @@ This master repository is configured as **Read-Only** to preserve the core templ
 ### One-Click Launch
 Click the badge below to automatically fork this repository and spin up your personal testing instance instantly:
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/joeynmq/segment-nodejs-test)
+<a href="https://codespaces.new/joeynmq/segment-nodejs-test" target="_blank">
+  <img src="https://github.com/codespaces/badge.svg" alt="Open in GitHub Codespaces">
+</a>
 
 ---
 
@@ -49,6 +51,15 @@ Once your Write Key is set, executing the script is simple. The environment conf
 npm start
 ```
 
+> [!IMPORTANT]
+> **Always stop your environment when you're done!**  
+> While Codespaces eventually time out automatically, manually stopping your active container when you finish testing helps conserve our shared monthly free compute hours. 
+> 
+> **How to stop it:**  
+> Click the `Codespaces` status indicator in the bottom-left corner of the window, then select **Stop Current Codespace** from the menu.
+> 
+> For a complete walkthrough on managing your container states, see the official [GitHub Codespaces Documentation on Stopping a Codespace](https://docs.github.com/en/codespaces/developing-in-a-codespace/stopping-and-starting-a-codespace#stopping-a-codespace).
+
 ---
 
 ## 📦 What's Inside?
@@ -61,4 +72,3 @@ npm start
 ## 💡 Troubleshooting & Tips
 - Checking Payloads: Remember to keep your target Segment Source Debugger open in your browser before running `npm start` so you can watch the incoming events populate in real-time.
 - Saving Your Work: Since GitHub automatically creates a personal fork for you, any changes you make to `index.js` (like hardcoding a key) can be saved and committed directly to your personal GitHub profile if you wish to reference them later.
-- Stopping the Codespace: Codespaces automatically time out and stop when inactive to preserve your monthly free compute hours, but you can manually stop them by clicking on the bottom-left "Codespaces" status bar indicator.
